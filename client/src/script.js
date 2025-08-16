@@ -80,7 +80,7 @@ const handleSubmit = async (e) => {
     loader(messageDiv)
 
     try {
-        const response = await fetch('https://codexchatbot-uh0c.onrender.com/', {
+        const response = await fetch('https://codexchatbot-uh0c.onrender.com/api/chat', {
   method: 'POST',
   headers: { 
     'Content-Type': 'application/json',
